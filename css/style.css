@@ -1,15 +1,24 @@
 /*UNIVERSAL SECTION*/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html {
+    font-family: 'Indie Flower', cursive;
+}
 .text-center {
     text-align: center;
 }
 
 body {
     box-sizing: border-box;
+    background-color: #efccff;
 }
 /* Header section begins here */
 header {
-    background-color: #fff;
+    background-color: #df99ff;
     position:relative;
+    border: 5px solid #df99ff;
+    border-radius: 5px 5px 0px 0px;
 }
 
 header h1 {
@@ -23,7 +32,7 @@ header img {
 }
 
 header div {
-    height: 35px;
+    height: 60px;
     margin-left: 5px;
 }
 
@@ -42,7 +51,7 @@ nav>ul>li {
     border: 2px solid #000;
     margin:0px 10px;
     padding: 10px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 0px 10px 0px 10px;
 }
 nav>ul>li>a {
     color:#000;
@@ -118,8 +127,9 @@ main {
 footer 
 {
     height:120px;
-    background-color:#c6c3b9;
-    clear: both;
+    background-color: #df99ff;
+    clear: both; border: 5px solid #df99ff;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .social-media {
@@ -128,6 +138,6 @@ footer
 }
 
 .social-media a {
-    color:#000;
+    color:#34004d;
     font-size:75px;
 }
